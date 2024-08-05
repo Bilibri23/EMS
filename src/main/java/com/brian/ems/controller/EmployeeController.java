@@ -12,7 +12,7 @@ import java.util.List;
 @RestController
 @RequiredArgsConstructor
 @RequestMapping("/api/employees")
-@CrossOrigin("*")
+@CrossOrigin(origins = "https://employee-app-603a0098e877.herokuapp.com/")
 public class EmployeeController {
     private final EmployeeService employeeService;
 
